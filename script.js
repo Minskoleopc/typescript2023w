@@ -65,9 +65,7 @@ addition('2','3')
 addition(2,3)
 
 
-// function addition(a:number,b:number){
-//     console.log(a+b)
-// }
+// git branch -M main
 
 addition(2,3)
 // typescript ------> js -------> browser
