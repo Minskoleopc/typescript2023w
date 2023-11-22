@@ -1,58 +1,61 @@
 "use strict";
-// program 1
-// admin , Admin, ADMIN
-// enum roles  {
-//     ADMIN, 
-//     CUSTOMER,
-//     SUPPORT,
-//     MANAGER,
-//     EMPLOYEE
+// // program 1
+// // admin , Admin, ADMIN
+// // enum roles  {
+// //     ADMIN, 
+// //     CUSTOMER,
+// //     SUPPORT,
+// //     MANAGER,
+// //     EMPLOYEE
+// // }
+// // if(roles.ADMIN){
+// //     console.log("admin")
+// // }
+// // else if(roles.CUSTOMER){
+// //     console.log("customer")
+// // }
+// // else if(roles.SUPPORT){
+// //     console.log("support")
+// // }
+// // else if(roles.MANAGER){
+// //     console.log("manager")  
+// // }
+// // if(roles.EMPLOYEE){
+// //     console.log("emplyee")
+// // }
+// enum Direction {
+//     EAST = 5,  
+//     SOUTH = 6,
+//     WEST = 7,
+//     NORTH = 8
 // }
-// if(roles.ADMIN){
-//     console.log("admin")
+// if (Direction.NORTH) {
+//     console.log("Delhi")
+//     console.log(Direction.NORTH)
 // }
-// else if(roles.CUSTOMER){
-//     console.log("customer")
+// if (Direction.EAST) {
+//     console.log("Bengal")
 // }
-// else if(roles.SUPPORT){
-//     console.log("support")
+// if (Direction.WEST) {
+//     console.log("Mumbai")
 // }
-// else if(roles.MANAGER){
-//     console.log("manager")  
+// if (Direction.SOUTH) {
+//     console.log("Indira point")
 // }
-// if(roles.EMPLOYEE){
-//     console.log("emplyee")
+// enum statusCode {
+//     NotFound = 404,
+//     Success = 200,
+//     Created = 201,
+//     TimeOut = 503
 // }
-var Direction;
-(function (Direction) {
-    Direction[Direction["EAST"] = 5] = "EAST";
-    Direction[Direction["SOUTH"] = 6] = "SOUTH";
-    Direction[Direction["WEST"] = 7] = "WEST";
-    Direction[Direction["NORTH"] = 8] = "NORTH";
-})(Direction || (Direction = {}));
-if (Direction.NORTH) {
-    console.log("Delhi");
-    console.log(Direction.NORTH);
-}
-if (Direction.EAST) {
-    console.log("Bengal");
-}
-if (Direction.WEST) {
-    console.log("Mumbai");
-}
-if (Direction.SOUTH) {
-    console.log("Indira point");
-}
-var statusCode;
-(function (statusCode) {
-    statusCode[statusCode["NotFound"] = 404] = "NotFound";
-    statusCode[statusCode["Success"] = 200] = "Success";
-    statusCode[statusCode["Created"] = 201] = "Created";
-    statusCode[statusCode["TimeOut"] = 503] = "TimeOut";
-})(statusCode || (statusCode = {}));
-console.log(statusCode.NotFound);
-let amol = {
-    firstName: "chinmay",
-    lastName: "deshpande",
-    rollNo: 23
-};
+// console.log(statusCode.NotFound)
+// type Person = {
+//     firstName:string
+//     lastName:string
+//     rollNo:number
+// }
+// let amol:Person = {
+//     firstName:"chinmay",
+//     lastName:"deshpande",
+//     rollNo:23
+// }
