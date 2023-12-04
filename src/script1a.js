@@ -8,3 +8,20 @@
 //     }
 // }
 // addition('10',10)
+
+
+class Dog {
+
+    breed
+    constructor(bd){
+        this.breed  = bd    
+    }
+
+    bark(){
+        console.log("woof")
+    }
+
+}
+let gr = new Dog("GR")
+console.log(gr.breed)
+gr.bark()
